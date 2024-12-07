@@ -17,7 +17,7 @@ The operations that can be done on intals are-
 - Increment and decrement by 1
 
 
-# Usage:
+## Usage:
 1. To run a sanity check:
 ```
 $ gcc -c intal_sanity_check.c
