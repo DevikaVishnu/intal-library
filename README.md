@@ -1,8 +1,8 @@
 # Library for Integers of an Arbitrary Length
 
-An integer of an arbitrary length (intal) is an object pointed to by a void* pointer. An intal can be created by intal_create() by providing a char string of a nonnegative integer provided in decimal digits. Some intals are created out of some functionalities like intal_add(), which creates a new intal.
+An integer of an arbitrary length (intal) is an object pointed to by a ```void*``` pointer. An intal can be created by ```intal_create()``` by providing a ```char``` string of a nonnegative integer provided in decimal digits. Some intals are created out of some functionalities like ```intal_add()```.
 
-Responsibility of destroying the intals created lies with the client by calling intal_destroy(), which will free whatever memory allocated during the creation of intal.
+The responsibility of destroying the created intals lies with the client, using the ```intal_destroy()```, which will free whatever memory that was allocated during the creation of the intal.
 
 There is no theoretical limit to the size of the integer, except for memory limitations of the process (Operating System).
 
